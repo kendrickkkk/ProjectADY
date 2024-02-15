@@ -1,0 +1,13 @@
+train: C:\ProjectADY\traffic-sign-yolov8.v1i.yolov8\train\images
+val: C:\ProjectADY\traffic-sign-yolov8.v1i.yolov8\valid\images
+test: C:\ProjectADY\traffic-sign-yolov8.v1i.yolov8\test\images
+
+nc: 4
+names: ["crosswalk", "speedlimit", "stop", "trafficlight"]
+
+roboflow:
+  workspace: trafic-sign-detection-yolov8
+  project: traffic-sign-yolov8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trafic-sign-detection-yolov8/traffic-sign-yolov8/dataset/1
